@@ -4,7 +4,7 @@
 
 The PDB: https://www.rcsb.org/
 
-1. Get assigned one of the five proteins to study: (A) Ubiquitin, 1UBQ; (B) Streptavidin, 6ZYT, (C) Lysozyme, 1LYS (D) RNaseP, 6D1R, (E) DHFR, 2W9T
+1. Get assigned one of the five proteins to study: (A) Ubiquitin, 1UBQ; (B) Streptavidin, 3RY2, (C) Lysozyme, 1LYS (D) RNaseP, 6D1R, (E) DHFR, 2W9T
 	- Read about the function of this protein
 	- Figure out how many amino acids there are
 2. Get the sequence in fasta file format and PDB file format into your Inputs/ folder
@@ -15,3 +15,4 @@ The PDB: https://www.rcsb.org/
 7. Using mdtraj, in a jupyter notebook, align your alphafold predictions to the crystal structure and make a bar plot showing the RMSD of each predicted structure to the crystal structure based on alpha-carbons and based on the full backbone and side-chains. Does alphafold get everything right or just the backbone structure? 
 8. From your alphafold greene output, make a picture of your protein colored by PLDDT score (stored in B-factor column), and put it in your figures folder. Which residues should we be confident in?
 9. (Bonus) In your jupyter notebook, load the pkl files and get the average PLDDT score for each predicted structure. Make a scatter plot of PLDDT vs RMSD of prediction. Are they correlated in your case?
+10. (Bonus) Compare to RoseTTAFold: `https://colab.research.google.com/github/sokrypton/ColabFold/blob/main/RoseTTAFold.ipynb`
