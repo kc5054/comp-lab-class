@@ -1,0 +1,6 @@
+# 12/05/22 16:20:43
+trajin proton_aimd_1ns_every0.5fs-pos-1.xyz
+trajout proton_traj.dcd
+qi
+qiot
+quit

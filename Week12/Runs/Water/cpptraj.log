@@ -1,0 +1,15 @@
+# 12/05/22 16:50:02
+# Args:  -p water.pdb
+# Loaded topologies:
+#   water.pdb
+trajin water.pdb
+trajout water1.pdb
+run
+quit
+# 12/05/22 17:16:36
+# Args:  -p water.pdb
+# Loaded topologies:
+#   water.pdb
+trajin water_aimd_1ns_every0.5fs-pos-1.xyz',top='water.pdb')
+trajin water_aimd_1ns_every0.5fs-pos-1.xyz
+exit
